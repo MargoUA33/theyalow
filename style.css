@@ -1,0 +1,74 @@
+/*
+font-family: 'Asap', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+font-family: 
+
+body {
+    width: 100%;
+    background-color: white;
+}
+
+.wrapper-1300 {
+    width: 1300px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.header {
+    display: flex;
+    height: 168px;
+    color: white;
+}
+
+.logoFront {
+width: 83px;
+height: 83px;
+border-radius: 13px;
+color: #f5c506;
+background-image: url("assets/header/logoShadow.svg");
+}
+
+ul.navigation {
+    display: flex;
+    justify-content: flex-start;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+}
+
+
+
+
+
+.section-first {
+    display: flex;
+    background-image: url(assets/section1/Layer20.png); 
+    width: 100%;
+}
+
+.slogan {
+font-size: 63px;
+letter-spacing: 1px;
+font-family: "Asap";
+font-weight: 400;
+text-align: center;
+}
+
+.slogan-yellow {
+    color: #f5c506;  
+}
+
+.slogan-white {
+    color: white;  
+}
